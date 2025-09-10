@@ -3,3 +3,9 @@ num1 = 7
 numero3 = 4.31
 is_true = True 
 is_faslse = False
+
+
+name, surname, age = 'Bryan' ,'Jose' ,23
+
+
+print(f'mi nombre es {name}, mi segundo es {surname} y mi edad es {age}')
