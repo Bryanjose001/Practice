@@ -9,3 +9,4 @@ name, surname, age = 'Bryan' ,'Jose' ,23
 
 
 print(f'mi nombre es {name}, mi segundo es {surname} y mi edad es {age}')
+print (name.count('B'))
