@@ -1,3 +1,6 @@
 # lstas 
-my_list = list()
-my_otra_lista = []
+my_list = ()
+mi_otra_lista = ['bryan',27,7]
+
+print(type(my_list))
+print(mi_otra_lista)
