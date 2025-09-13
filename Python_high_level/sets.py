@@ -6,4 +6,4 @@ print(type(my_set))
 print(type(my_other_set))
 
 my_other_set = {'bryan','hola',45}
-print (type(my_other_set))
+print (my_other_set)
