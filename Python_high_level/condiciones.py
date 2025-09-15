@@ -12,3 +12,7 @@ if segunda_cond:
     print('es mayor que 7')
 else: 
     print('no es mayor que 7')
+
+
+
+#condiciones son instrucciones que permiten a un programa tomar decisiones y ejecutar diferentes bloques de código según si se cumple un requisito
