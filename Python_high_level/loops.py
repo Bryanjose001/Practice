@@ -5,7 +5,7 @@ while my_condition < 10:
     print(my_condition)
     my_condition += 2
 else:
-    print('lo demas de el bucle')  
+    print('mi condicion es mayor o igual que 10')  
 
 
 
