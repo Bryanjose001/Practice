@@ -8,6 +8,7 @@ print('la condicion continua')
 
 segunda_cond = 2 + 5
 
-if segunda_cond >= 7:
+if segunda_cond == 7:
     print('es mayor que 7')
-else: ('no es mayor que 7')
+else: 
+    print('no es mayor que 7')
