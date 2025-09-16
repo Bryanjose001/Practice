@@ -7,10 +7,9 @@ while my_condition < 10:
 else:
     print('mi condicion es mayor o igual que 10')  
 
-
-
-
-#for ()
+my_list = [1,2,3,4]
+for element in my_list:
+    print(element)
 
 
 
