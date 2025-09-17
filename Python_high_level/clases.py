@@ -5,4 +5,4 @@ class Persona:
         pass
     
 my_persona = Persona()
-print
+print(my_persona)
