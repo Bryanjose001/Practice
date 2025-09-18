@@ -6,7 +6,7 @@ def fizz_buzz():
             number = 'fizz'
         elif number % 5 == 0:
             number = 'buzz' 
-        print(number)
+        print(number,'\n')
 fizz_buzz()
 
 
