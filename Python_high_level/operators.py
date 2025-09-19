@@ -22,3 +22,9 @@ perimeter = sidea + sideb + sidec
 print (perimeter)
 
 
+lenght = int(input('the lenght is : '))
+width = int(input('the width is : '))
+area2 = lenght * width
+perimeter2 = 2*(lenght + width)
+print(perimeter2)
+
