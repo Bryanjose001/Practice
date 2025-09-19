@@ -1,3 +1,3 @@
 #dates
-import datetime
-now = datetime.datetime
+from datetime import datetime
+now = datetime.
