@@ -9,9 +9,14 @@ name, surname, age = 'Bryan' ,'Jose' ,23
 num_one = 5
 num_two = 4
 total = 9
+diff = num_one - num_two
+product = num_two * num_one
+
 
 print(f'mi nombre es {name}, mi segundo es {surname} y mi edad es {age}')
 print (name.count('B'))
 print(type(name))
 print(len(name))
 print(len(surname))
+print(diff)
+print(product)
