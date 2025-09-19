@@ -28,3 +28,12 @@ area2 = lenght * width
 perimeter2 = 2*(lenght + width)
 print(perimeter2)
 
+radius = int(input('the radius is: '))
+pi = 3.14
+area3 = pi * radius * radius
+circumferencia = 2 * pi * radius
+print(area3)
+print(circumferencia)
+
+
+
