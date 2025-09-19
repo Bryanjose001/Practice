@@ -40,3 +40,8 @@ rate_per_hours = int(input('Enter rate per hours: '))
 weekly_earning = hours * rate_per_hours
 print(f'Your weekly earnings are:{weekly_earning}')
 
+number_of_years = int(input('Enter the years you have lived: '))
+seconds_in_a_year = 3.154e+7
+seconds_you_haved_Lived = number_of_years * seconds_in_a_year
+print(f'You haved lived for {seconds_you_haved_Lived} seconds.')
+
