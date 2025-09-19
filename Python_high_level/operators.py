@@ -35,5 +35,8 @@ circumferencia = 2 * pi * radius
 print(area3)
 print(circumferencia)
 
-
+hours = int(input('Enter hours: '))
+rate_per_hours = int(input('Enter rate per hours: '))
+weekly_earning = hours * rate_per_hours
+print(f'Your weekly hours are:{weekly_earning}')
 
