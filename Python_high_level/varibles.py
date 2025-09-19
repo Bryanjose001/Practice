@@ -20,6 +20,8 @@ circum_of_circle = 2 * 3.14 * r
 variable = input('mesaje para el usuario')
 first_name = input('tu Primer nombre: ')
 last_name = input('tu apellido: ')
+pais = input('tu pais es: ')
+Edad = int(input('Cual es tu edad: '))
 
 
 
