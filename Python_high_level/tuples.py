@@ -23,6 +23,7 @@ print(len(food_stuff_lt))
 print(my_other_tuple)
 print(my_tuple)
 print(len(mis_hermanos))
-print()
+print('estonia'in nordic_countries)
+print('Denmark' in nordic_countries)
 
 #tuple is the same as a list but it connt be mutablable
