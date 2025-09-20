@@ -12,9 +12,12 @@ productos_animales = ('comida','baalal','lol')
 food_stuff_tp = frutas + vegetales + productos_animales
 food_stuff_tp = list(food_stuff_tp)
 food_stuff_lt = food_stuff_tp
+first_items = food_stuff_lt[0:3]
+last_items = food_stuff_lt[-3:]
 
+del food_stuff_tp
 
-
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
 print(len(food_stuff_lt))
 print(my_other_tuple)
