@@ -10,6 +10,9 @@ full_stack = joint_ends.copy()
 joint_ends.insert(4,'python')
 joint_ends.insert(5,'SQL')
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort(reverse=False)
+ages.append(19)
+ages.append(26)
 
 
 print(type(my_list))
@@ -20,3 +23,4 @@ print(mi_otra_lista[2])
 print(mi_otra_lista[4])
 print(joint_ends)
 print(full_stack)
+print(ages)
