@@ -9,6 +9,7 @@ full_stack = joint_ends
 full_stack = joint_ends.copy()
 joint_ends.insert(4,'python')
 joint_ends.insert(5,'SQL')
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 
 print(type(my_list))
