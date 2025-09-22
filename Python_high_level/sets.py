@@ -16,7 +16,7 @@ A | B
 A.intersection(B)
 A.issubset(B)
 A.isdisjoint(B)
-
+A | B , B | A
 
 print(len(it_companies))
 print(type(my_set))
