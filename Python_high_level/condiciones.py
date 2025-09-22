@@ -54,8 +54,26 @@ elif grade >= 0 and grade <= 49:
     print('Tienes F')
 
 
+otoño = ["september", "october", "november"]
 
+invierno = ["december", "january", "february"]
 
+primavera = ["march", "april", "may"]
+
+verano = ["june", "july", "august"]
+
+mes =(input('Cual es tu mes favorito?: '))
+mes = mes.lower()
+if mes in otoño:
+    print('esto es otono')
+elif mes in invierno:
+    print('esto es Invierno')
+elif mes in primavera:
+    print('esto es primavera')
+elif mes in verano:
+    print('esto es verano')
+
+    
 
 
 
