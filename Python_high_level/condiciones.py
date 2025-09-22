@@ -29,7 +29,33 @@ elif your_age > 23:
 else:
     print('Estas joven todavia!')
 
-    
+
+
+Num1 = int(input('Cual es tu numero favorito: '))
+Num2 = int(input('Cual es tu segundo numero favorito: '))
+if Num1 > Num2:
+    print(f"{Num1} es mauor que  {Num2}")
+elif Num1 < Num2:
+    print(f"{Num1} es menor  que {Num2}")
+else:
+    print('Los dos son iguales')
+
+
+grade = int(input('Cual es tu score: '))
+if grade >= 80 and grade <= 100:
+    print('Tienes A')
+elif grade >= 70 and grade <= 89:
+    print('Tienes B')
+elif grade >= 60 and grade <= 69:
+    print('Tienes C')
+elif grade >= 50 and grade <= 59:
+    print('Tienes D')
+elif grade >= 0 and grade <= 49:
+    print('Tienes F')
+
+
+
+
 
 
 
