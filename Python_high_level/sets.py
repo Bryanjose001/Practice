@@ -10,6 +10,13 @@ B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 it_companies.add('twiter')
 it_companies.update(['tesla','samsung'])
+it_companies.remove('twiter')
+#the difecence between remove and discard is that remove it will give you and error and discard wont
+A | B
+A.intersection(B)
+
+
+
 
 print(len(it_companies))
 print(type(my_set))
