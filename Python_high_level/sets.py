@@ -19,8 +19,9 @@ A.isdisjoint(B)
 A | B , B | A
 A.symmetric_difference(B)
 del A,B
-age =set(age)
+age_set =set(age)
 len(age)
+len(age_set)
 
 
 print(len(it_companies))
