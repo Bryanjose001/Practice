@@ -22,10 +22,15 @@ else:
 
 my_age = 23
 your_age = int(input('cual es tu edad: ?'))
-if your_age <= 23:
+if your_age == 23:
+    print('estas en la edad que es!')
+elif your_age > 23:
     print('estas viejo')
 else:
     print('Estas joven todavia!')
+
+    
+
 
 
 
