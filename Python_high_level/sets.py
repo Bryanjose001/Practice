@@ -20,8 +20,8 @@ A | B , B | A
 A.symmetric_difference(B)
 del A,B
 age_set =set(age)
-len(age)
-len(age_set)
+print(len(age))
+print(len(age_set))
 
 
 print(len(it_companies))
