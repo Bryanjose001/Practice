@@ -1,16 +1,19 @@
 #diccionarios
-mi_dic = dict ()
+mi_dic =  {'mama':'Nilma'}
 mi_otro_dict = {}
 mi_otro_dict = {'nombre':'bryan','apellido':'camacho','edad':35}
 dog = {'name':'pepe','color':'blonde','breed':'golden retriever','age':23}
-student = {'first_name':'Bryan','last_name ':'Camacho','gender':'male','age':23,'skills':'coding'}
-student['skills'(type)]
-print(student)
+student = {'first_name':'Bryan','last_name ':'Camacho','gender':'male','age':23,'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python']}
+values = student.values()
 
 
 
-del mi_dic
 
+del mi_dic['mama']
+
+print(values)
+print(student.items())
+print(type(student['skills']))
 print(mi_otro_dict)
 print(type(mi_otro_dict))
 print(dog)
