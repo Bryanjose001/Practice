@@ -73,8 +73,34 @@ elif mes in primavera:
 elif mes in verano:
     print('esto es verano')
 
-    
 
+
+fruta = ['banana', 'orange', 'mango', 'lemon']
+fruta_favorita = (input('cual es tu frutra favorita?: '))
+fruta_favorita = fruta_favorita.lower()
+if fruta_favorita in fruta:
+    print('That fruit already exists in the list')
+else:
+    fruta.append(fruta_favorita)
+    print(fruta)
+
+
+person={
+    'first_name': 'Bryan',
+    'last_name': 'Camacho',
+    'age': 23,
+    'country': 'Puerto Rico',
+    'is_marred': False,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Salinas',
+        'zipcode': '00751'
+    }
+    }
+
+
+if 'skills' in  person:
+    print(len(person['skills']))
 
 
 
