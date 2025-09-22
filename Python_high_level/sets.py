@@ -20,10 +20,22 @@ A | B , B | A
 A.symmetric_difference(B)
 del A,B
 age_set =set(age)
+#age  is bigger that age_set
+'''the diffence between string, list , tuple ,sets is that String: Una cadena(string)es una secuencia de caracteres que no se puede modificar.
+List:Una lista(list)es una colección ordenada de elementos que se pueden cambiar.
+Tuple: Una tupla(tuple)es una colección ordenada de elementos que no se pueden modificar.
+Set: Un conjunto(set)es una colección desordenada de elementos únicos que se pueden modificar.
+'''
+st = ('I am a teacher and I love to inspire and teach people')
+st = st.split()
+st = set(st)
+print(len(st))
+
+
+
+
 print(len(age))
 print(len(age_set))
-
-
 print(len(it_companies))
 print(type(my_set))
 print(type(my_other_set))
