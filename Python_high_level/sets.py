@@ -17,6 +17,7 @@ A.intersection(B)
 A.issubset(B)
 A.isdisjoint(B)
 A | B , B | A
+A.symmetric_difference(B)
 
 print(len(it_companies))
 print(type(my_set))
