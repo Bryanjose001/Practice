@@ -14,8 +14,8 @@ it_companies.remove('twiter')
 #the difecence between remove and discard is that remove it will give you and error and discard wont
 A | B
 A.intersection(B)
-
-
+A.issubset(B)
+A.isdisjoint(B)
 
 
 print(len(it_companies))
