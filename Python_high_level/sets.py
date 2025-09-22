@@ -29,11 +29,11 @@ Set: Un conjunto(set)es una colección desordenada de elementos únicos que se p
 st = ('I am a teacher and I love to inspire and teach people')
 st = st.split()
 st = set(st)
+
+
+
+
 print(len(st))
-
-
-
-
 print(len(age))
 print(len(age_set))
 print(len(it_companies))
