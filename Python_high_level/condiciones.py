@@ -21,11 +21,11 @@ else:
     print('you need more years to drive')
 
 my_age = 23
-your_age = (input('cual es tu edad: ?'))
+your_age = int(input('cual es tu edad: ?'))
 if your_age <= 23:
-    print('estas cb')
+    print('estas viejo')
 else:
-    print()
+    print('Estas joven todavia!')
 
 
 
