@@ -3,8 +3,9 @@ mi_dic = dict ()
 mi_otro_dict = {}
 mi_otro_dict = {'nombre':'bryan','apellido':'camacho','edad':35}
 dog = {'name':'pepe','color':'blonde','breed':'golden retriever','age':23}
-student = {'first_name':'Bryan','last_name ':'Camacho','gender':'male','age':23}
-
+student = {'first_name':'Bryan','last_name ':'Camacho','gender':'male','age':23,'skills':'coding'}
+student['skills'(type)]
+print(student)
 
 
 
