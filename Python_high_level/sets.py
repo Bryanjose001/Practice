@@ -18,6 +18,10 @@ A.issubset(B)
 A.isdisjoint(B)
 A | B , B | A
 A.symmetric_difference(B)
+del A,B
+age =set(age)
+
+
 
 print(len(it_companies))
 print(type(my_set))
