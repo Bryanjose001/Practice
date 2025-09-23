@@ -1,5 +1,5 @@
 #condiciones
-my_condition = False
+'''my_condition = False
 
 if my_condition:
     print('si es es true aparace3 el if')
@@ -83,7 +83,7 @@ if fruta_favorita in fruta:
 else:
     fruta.append(fruta_favorita)
     print(fruta)
-
+'''
 
 person={
     'first_name': 'Bryan',
