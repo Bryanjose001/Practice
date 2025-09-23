@@ -96,11 +96,14 @@ person={
         'street': 'Salinas',
         'zipcode': '00751'
     }
-    }
+}
 
 
 if 'skills' in  person:
     print(len(person['skills']))
+
+person['skills'][2]
+
 
 
 
