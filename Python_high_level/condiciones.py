@@ -104,7 +104,7 @@ if 'skills' in  person:
 
 person['skills'][2]
 
-
+if 
 
 
 
