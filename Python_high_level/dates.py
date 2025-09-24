@@ -1,3 +1,4 @@
 #dates
 from datetime import datetime
-now = datetime
+
+print(datetime.hour)
