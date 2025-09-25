@@ -105,7 +105,7 @@ person={
 person['skills'][2]'''
 
 if 'Python' in person['skills']:
-
+    print('Tiene Python')
 
 
 
