@@ -99,12 +99,13 @@ person={
 }
 
 
-if 'skills' in  person:
+'''if 'skills' in  person:
     print(len(person['skills']))
 
-person['skills'][2]
+person['skills'][2]'''
 
-if 
+if 'Python' in person['skills']:
+
 
 
 
