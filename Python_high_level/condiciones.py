@@ -106,7 +106,14 @@ person['skills'][2]'''
 
 if 'Python' in person['skills']:
     print('Tiene Python')
-
+elif 'Javascript' and 'React' in person['skills']:
+    print('Es un frontend developer')
+elif 'Node' and 'Python' and 'MongoDB' in person['skills']:
+    print('He is a backend developer')
+elif 'Node' and 'React' and 'MongoDB' in person['skills']:
+    print('He is a fullstack developer')
+else:
+    print('Unknown title')
 
 
 
