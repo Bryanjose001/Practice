@@ -104,16 +104,17 @@ person={
 
 person['skills'][2]'''
 
-if 'Python' in person['skills']:
-    print('Tiene Python')
-elif 'Javascript' and 'React' in person['skills']:
-    print('Es un frontend developer')
-elif 'Node' and 'Python' and 'MongoDB' in person['skills']:
+if 'JavaScript' in person['skills'] and 'React' in person['skills'] and len(person['skills']) == 2:
+    print('He is a front end developer')
+elif 'Node' in person['skills'] and 'Python' in person['skills'] and 'MongoDB' in person['skills']:
     print('He is a backend developer')
-elif 'Node' and 'React' and 'MongoDB' in person['skills']:
+elif 'React' in person['skills'] and 'Node' in person['skills'] and 'MongoDB' in person['skills']:
     print('He is a fullstack developer')
 else:
     print('Unknown title')
+    
+if person['is_marred'] and person['country'] == 'Puerto Rico':
+    print(f"{person['first_name']} {person['last_name']} lives in {person['country']}. He is married.")
 
 
 
