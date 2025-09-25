@@ -1,5 +1,5 @@
 #condiciones
-'''my_condition = False
+my_condition = False
 
 if my_condition:
     print('si es es true aparace3 el if')
@@ -83,7 +83,7 @@ if fruta_favorita in fruta:
 else:
     fruta.append(fruta_favorita)
     print(fruta)
-'''
+
 
 person={
     'first_name': 'Bryan',
@@ -112,7 +112,7 @@ elif 'React' in person['skills'] and 'Node' in person['skills'] and 'MongoDB' in
     print('He is a fullstack developer')
 else:
     print('Unknown title')
-    
+
 if person['is_marred'] and person['country'] == 'Puerto Rico':
     print(f"{person['first_name']} {person['last_name']} lives in {person['country']}. He is married.")
 
