@@ -1,4 +1,6 @@
-#loops
+#loops\
+from Python_high_level.countries_data import countries_data
+from collections import Counter
 my_condition = 0
 mi_piramide = 0
 mi_otra_condition = 0
@@ -285,6 +287,39 @@ reversed_fruits = []
 for fruta in fruits:
     reversed_fruits.insert(0,fruta)
 print(reversed_fruits)
+
+
+
+todos_los_lenguajes = set()
+
+for country in countries_data:
+    for lang in country['lenguajes']:
+        todos_los_lenguajes.add(lang)
+
+print(f"Total number of languages: {len(todos_los_lenguajes)}")
+
+
+language_count = Counter()
+
+for country in countries_data:
+    for lang in country['lenguajes']:
+        language_count[lang] += 1
+
+top_10_languages = language_count.most_common(10)
+print("Top 10 most spoken lenguajes:")
+for lang, count in top_10_languages:
+    print(f"{lang}: {count} paises")
+
+
+top_10_populated = sorted(countries_data, key=lambda x: x['population'], reverse=True)[:10]
+
+print("Top 10 most populated countries:")
+for country in top_10_populated:
+    print(f"{country['name']}: {country['population']}")
+
+
+
+
 
 
 
