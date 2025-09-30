@@ -12,7 +12,7 @@ for element in my_list:
     print(element)'''
 
 
-while my_condition < 11:
+'''while my_condition < 11:
     print(my_condition)
     my_condition += 1
 
@@ -21,7 +21,14 @@ for elment in my_list:
     print(elment)
 
 for num in range(10,-1,-1):
-    print(num)
+    print(num)'''
+
+mi_piramide = 0
+while mi_piramide < 7:
+    print('#')
+    mi_piramide += 1
+
+
 
 
 
