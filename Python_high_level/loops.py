@@ -1,5 +1,10 @@
 #loops
 my_condition = 0
+mi_piramide = 0
+mi_otra_condition = 0
+num = 8
+
+
 
 '''while my_condition < 10:
     print(my_condition)
@@ -21,12 +26,20 @@ for elment in my_list:
     print(elment)
 
 for num in range(10,-1,-1):
-    print(num)'''
+    print(num)
 
 mi_piramide = 0
 while mi_piramide < 7:
     print('#' * (mi_piramide + 1))
-    mi_piramide += 1
+    mi_piramide += 1'''
+
+
+
+for i in range(num):
+    for b in  range(num):
+        print('#',end='')
+    print()
+        
 
 
 
