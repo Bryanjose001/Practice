@@ -39,7 +39,7 @@ for i in range(num):
     for b in  range(num):
         print('#',end='')
     print()
-        '''
+       
 
 
 range(0,11)
@@ -63,6 +63,21 @@ for num2 in range(0,101):
 for num2 in range(0,101):
      total += num2 
 print(f'La suma de todos los numeros es:{total}')
+'''
+total2 = 0
+for num2 in range(0,101):
+    if num2 % 2 == 0:
+        total += num2
+    else:
+        total2 += num2
+print(f'La suma de todos los numeros evens:{total}')
+print(f'La suma de todos los numeros evens:{total2}' )
+
+
+
+
+
+
 
 
 
