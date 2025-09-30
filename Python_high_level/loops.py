@@ -279,7 +279,12 @@ for country in countries:
 print(paises_land)
         
 
+fruits = ['banana', 'orange', 'mango', 'lemon']
+reversed_fruits = []
 
+for fruta in fruits:
+    reversed_fruits.insert(0,fruta)
+print(reversed_fruits)
 
 
 
