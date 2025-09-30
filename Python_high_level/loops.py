@@ -31,7 +31,7 @@ for num in range(10,-1,-1):
 mi_piramide = 0
 while mi_piramide < 7:
     print('#' * (mi_piramide + 1))
-    mi_piramide += 1'''
+    mi_piramide += 1
 
 
 
@@ -39,7 +39,13 @@ for i in range(num):
     for b in  range(num):
         print('#',end='')
     print()
-        
+        '''
+
+
+range(0,11)
+for num in range(0,11):
+    print(num * num)
+
 
 
 
