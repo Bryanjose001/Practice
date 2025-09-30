@@ -4,7 +4,7 @@ mi_piramide = 0
 mi_otra_condition = 0
 num = 8
 num2 = 100
-
+total = 0
 
 '''while my_condition < 10:
     print(my_condition)
@@ -56,9 +56,13 @@ for num2 in range(0,101):
     if num % 2 == 0:
         print(num2)
 
+for num2 in range(0,101):
+    if num2 % 2 != 0:
+        print(num2)
 
-
-
+for num2 in range(0,101):
+     total += num2 
+print(f'La suma de todos los numeros es:{total}')
 
 
 
