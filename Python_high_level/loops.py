@@ -3,7 +3,7 @@ my_condition = 0
 mi_piramide = 0
 mi_otra_condition = 0
 num = 8
-
+num2 = 100
 
 
 '''while my_condition < 10:
@@ -46,7 +46,15 @@ range(0,11)
 for num in range(0,11):
     print(num * num)
 
+mi_lista = ['Python', 'Numpy','Pandas','Django', 'Flask']
+for element in mi_lista:
+    print(element)
 
+
+
+for num2 in range(0,101):
+    if num % 2 == 0:
+        print(num2)
 
 
 
