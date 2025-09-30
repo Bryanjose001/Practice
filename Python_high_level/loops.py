@@ -20,7 +20,8 @@ my_list = [0,1,2,3,4,5,6,7,8,9,10]
 for elment in my_list:
     print(elment)
 
-
+for num in range(10,-1,-1):
+    print(num)
 
 
 
