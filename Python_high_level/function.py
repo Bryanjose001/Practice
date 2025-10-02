@@ -16,7 +16,14 @@ def sum_two_values(first_number, second_number):
     #return(5,2)'''
 
 
+def sum_two_values(num1,num2):
+    print(num1+num2)
 
+sum_two_values(23,2)
+
+
+
+    
 
 
 
