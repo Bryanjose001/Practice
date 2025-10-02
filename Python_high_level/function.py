@@ -1,6 +1,6 @@
 #function
 
-'''def my_function ():
+def my_function ():
     print('esto es un funcion')
 
 my_function()
@@ -13,7 +13,7 @@ sum_two_values(5,2)
 def sum_two_values(first_number, second_number):
     print(first_number+second_number)
     
-    #return(5,2)'''
+    #return(5,2)
 
 
 def sum_two_values(num1,num2):
@@ -68,6 +68,13 @@ def check_season(month):
 month = input('Enter your favorite month: ')
 print(f'The season is :{check_season(month)} ')
 
+
+def calculate_slope():
+
+def print_list(my_list):
+    for elment in my_list:
+        print(elment)
+print_list(my_list=[2,23,1,5])
 
 
 
