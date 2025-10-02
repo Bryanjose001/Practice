@@ -22,7 +22,10 @@ def sum_two_values(num1,num2):
 sum_two_values(23,2)
 
 
-
+def area_of_circle(r):
+    3.14 * r * r
+    print(3.14 * r * r)
+area_of_circle(5)
     
 
 
