@@ -1,6 +1,6 @@
 #function
 
-def my_function ():
+'''def my_function ():
     print('esto es un funcion')
 
 my_function()
@@ -69,15 +69,22 @@ month = input('Enter your favorite month: ')
 print(f'The season is :{check_season(month)} ')
 
 
-def calculate_slope():
 
 def print_list(my_list):
     for elment in my_list:
         print(elment)
-print_list(my_list=[2,23,1,5])
+print_list(my_list=[2,23,1,5])'''
 
 
 
+
+def reverse_list(my_array):
+    my_list_array = []
+    for i in range(len(my_array)- 1 ,-1 ,-1):
+        my_list_array.append(my_array[i])
+    return my_list_array
+print(reverse_list([1, 2, 3, 4, 5]))
+        
 
 
 
