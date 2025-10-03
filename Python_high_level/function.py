@@ -91,8 +91,8 @@ print(reverse_list([1, 2, 3, 4, 5]))'''
 def capitalize_list_items(my_list):
     my_list_capitalized = []
     for elment in my_list:
-        my_list_capitalized.append()
-        return elment
+        my_list_capitalized.append(elment.capitalize())
+        return my_list_capitalized
 print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))
 
         
