@@ -83,7 +83,7 @@ def reverse_list(my_array):
     for i in range(len(my_array)- 1 ,-1 ,-1):
         my_list_array.append(my_array[i])
     return my_list_array
-print(reverse_list([1, 2, 3, 4, 5]))'''
+print(reverse_list([1, 2, 3, 4, 5]))
 
 
 
@@ -93,9 +93,14 @@ def capitalize_list_items(my_list):
     for elment in my_list:
         my_list_capitalized.append(elment.capitalize())
     return my_list_capitalized
-print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))
+print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))'''
 
         
+
+def add_item(my_other_list,item):
+    item_list = []
+    for element in item:
+
 
 
 
