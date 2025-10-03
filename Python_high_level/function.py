@@ -99,8 +99,7 @@ print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))'''
 
 def add_item(my_other_list,item):
     my_other_list = ['Potato', 'Tomato', 'Mango', 'Milk']
-    for element in my_other_list:
-        my_other_list.append(element.append())
+    my_other_list = my_other_list.append()
     return my_other_list
 print(add_item(my_other_list=('Meat')))
 
