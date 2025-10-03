@@ -1,6 +1,6 @@
 #function
 
-'''def my_function ():
+def my_function ():
     print('esto es un funcion')
 
 my_function()
@@ -93,7 +93,7 @@ def capitalize_list_items(my_list):
     for elment in my_list:
         my_list_capitalized.append(elment.capitalize())
     return my_list_capitalized
-print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))'''
+print(capitalize_list_items(my_list=['bryan','jose','camacho','santiago']))
 
         
 my_other_list = ['Potato', 'Tomato', 'Mango', 'Milk']
