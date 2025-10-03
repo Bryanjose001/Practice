@@ -34,3 +34,7 @@ print(user_id_gen_by_user())
 
 
 
+def rgb_color_gen():
+    
+
+
