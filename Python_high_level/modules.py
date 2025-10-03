@@ -18,17 +18,15 @@ print(random_number_id())
 
 def user_id_gen_by_user(): 
     random_user_id = ''
+    list_of_id = []
     num_char = int(input('how many char in id: '))
     num_ids = int(input('how many id you want: '))
     characters = string.ascii_letters + string.digits
     for elment in range(num_ids):
         current_id = ''
-        random_user_id += random.choice(characters)
-        list_of_id = []
         for elment in range(num_char):
-            random_char += current_id
-            random_user_id += random.choice(characters)
-            list_of_id.append(current_id)
+            current_id += random.choice(characters)
+        list_of_id.append(current_id)
 
     return list_of_id
 
