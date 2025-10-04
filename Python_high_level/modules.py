@@ -43,3 +43,16 @@ def rgb_color_gen():
 print(rgb_color_gen())
 
 
+def list_of_hexa_colors():
+    my_hexa = random.shuffle(0,5)
+    my_second_hexa = random.shuffle(0,5)
+    my_third_hexa = random.shuffle(0,5)
+    return f'hexa [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
+print(list_of_hexa_colors())
+
+
+
+
+
+
+
