@@ -45,7 +45,7 @@ print(rgb_color_gen())
 
 def list_of_hexa_colors():
     my_hexa_list = '0123456789abcdef'
-    my_hexa =  ''.join(random.choice())
+    my_hexa =  ''.join(random.choice(my_hexa_list))
     my_second_hexa = ''.join(random.choice())
     my_third_hexa = ''.join(random.choice())
     return f'hexa [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
