@@ -35,6 +35,8 @@ print(user_id_gen_by_user())
 
 
 def rgb_color_gen():
-    
+    my_first_rgb = random.randint
+    my_second_rgb = random.randint
+    my_third_rgb = random.randint
 
 
