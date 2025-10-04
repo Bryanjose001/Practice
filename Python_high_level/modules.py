@@ -1,9 +1,10 @@
 #modules
-'''from function import sum_two_values
-
-function.sum_two_values(3,7)'''
 import random
 import string 
+'''from function import sum_two_values
+
+function.sum_two_values(3,7)
+
 
 def random_number_id(): 
     random_user_id = ''
@@ -29,14 +30,16 @@ def user_id_gen_by_user():
 
     return list_of_id
 
-print(user_id_gen_by_user())
+print(user_id_gen_by_user())'''
 
 
 
 
 def rgb_color_gen():
-    my_first_rgb = random.randint()
-    my_second_rgb = random.randint()
-    my_third_rgb = random.randint()
+    my_first_rgb = random.randint(0,255)
+    my_second_rgb = random.randint(0,255)
+    my_third_rgb = random.randint(0,255)
+    return f'rgb({my_first_rgb},{my_second_rgb},{my_third_rgb})'
+print(rgb_color_gen())
 
 
