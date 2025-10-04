@@ -47,8 +47,8 @@ def list_of_hexa_colors():
     my_hexa_list = '0123456789abcdef'
     my_hexa =  ''.join(random.choice(my_hexa_list) for b in range(6))
     my_second_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
-    my_third_hexa = ''.join(random.choice(my_hexa_list))
-    return f'hexa [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
+    my_third_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
+    return f'hexa # [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
 print(list_of_hexa_colors())
 
 
