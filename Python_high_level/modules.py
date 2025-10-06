@@ -76,7 +76,7 @@ def arr_of_seven():
         num1 = random.randint(0,9)
         while num1 in numeros:
             num1 = random.randint(0,9)
-            numeros.append(num1)
+        numeros.append(num1)
     return numeros
 print(arr_of_seven())
 
