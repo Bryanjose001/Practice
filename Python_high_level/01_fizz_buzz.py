@@ -16,7 +16,8 @@ while my_buzz < 101:
         print('buzz')
     elif my_buzz % 3 == 0:
         print('fizz')
-    
+    else:
+        print(my_buzz)
 
 
 
