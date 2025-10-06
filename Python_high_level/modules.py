@@ -60,7 +60,7 @@ def list_of_rgb(num):
         my_third_rgb = random.randint(0,255)
         color = f'rgb = ({my_rgb},{my_second_rgb},{my_third_rgb})'
         colors.append(color)
-    return color
+    return colors
 print(list_of_rgb(3))
 
 
