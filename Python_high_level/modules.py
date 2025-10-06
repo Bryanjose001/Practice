@@ -30,7 +30,7 @@ def user_id_gen_by_user():
 
     return list_of_id
 
-print(user_id_gen_by_user())'''
+print(user_id_gen_by_user())
 
 
 
@@ -49,14 +49,14 @@ def list_of_hexa_colors():
     my_second_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
     my_third_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
     return f'hexa = [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
-print(list_of_hexa_colors())
+print(list_of_hexa_colors())'''
 
 
 def list_of_rgb():
     my_rgb = random.randint(0,255)
-
-    
-    return f'rgb = {my_rgb}'
+    my_second_rgb = random.randint(0,255)
+    my_third_rgb = random.randint(0,255)
+    return f'rgb = ({my_rgb},{my_second_rgb},{my_third_rgb})'
 print(list_of_rgb())
 
 
