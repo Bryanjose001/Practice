@@ -53,7 +53,11 @@ print(list_of_hexa_colors())
 
 
 def list_of_rgb():
+    my_rgb = random.randint(0,255)
+
     
+    return f'rgb = {my_rgb}'
+print(list_of_rgb())
 
 
     
