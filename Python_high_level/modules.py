@@ -58,8 +58,9 @@ def list_of_rgb(num):
         my_rgb = random.randint(0,255)
         my_second_rgb = random.randint(0,255)
         my_third_rgb = random.randint(0,255)
-        color = f'rgb{my_rgb},{my_second_rgb},{my_third_rgb}'
+        color = f'rgb = {my_rgb},{my_second_rgb},{my_third_rgb}'
         colors.append(color)
+        return color
 print(list_of_rgb(3))
 
 
