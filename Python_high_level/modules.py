@@ -61,15 +61,20 @@ def list_of_rgb(num):
         color = f'rgb({my_rgb},{my_second_rgb},{my_third_rgb})'
         colors.append(color)
     return colors
-print(list_of_rgb(3))'''
+print(list_of_rgb(3))
 
 
 def shuffle_list(list):
     random.shuffle(list)
     return list
 print(shuffle_list(list=[1,2,3,4,5]))
+'''
 
-
+def arr_of_seven(num1):
+    for b in range(num1):
+        num1 = random.randrange(0,7)
+    return num1
+print(arr_of_seven(9))
 
 
 
