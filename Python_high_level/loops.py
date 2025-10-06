@@ -8,18 +8,17 @@ num = 8
 num2 = 100
 total = 0
 
-'''while my_condition < 10:
+while my_condition < 10:
     print(my_condition)
     my_condition += 2
 else:
-    print('mi condicion es mayor o igual que 10''' 
+    print('mi condicion es mayor o igual que 10')
 
-'''my_list = [1,2,3,4]
+my_list = [1,2,3,4]
 for element in my_list:
-    print(element)'''
+    print(element)
 
-
-'''while my_condition < 11:
+while my_condition < 11:
     print(my_condition)
     my_condition += 1
 
@@ -65,7 +64,7 @@ for num2 in range(0,101):
 for num2 in range(0,101):
      total += num2 
 print(f'La suma de todos los numeros es:{total}')
-'''
+
 total2 = 0
 for num2 in range(0,101):
     if num2 % 2 == 0:
