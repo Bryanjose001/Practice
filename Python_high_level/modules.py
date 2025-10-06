@@ -64,7 +64,7 @@ def list_of_rgb(num):
 print(list_of_rgb(3))'''
 
 
-def generate_colors():
+
 
 
 
