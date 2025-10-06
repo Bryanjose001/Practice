@@ -15,8 +15,8 @@ while my_buzz < 101:
         print('fizz')
     elif my_buzz % 5 == 0:
         print('buzz')
-    else:
-        my_buzz % 3 and 5 == 0
+    elif my_buzz % 3 == 0:
+        my_buzz % 5 == 0
         print('fizz buzz')
 
 
