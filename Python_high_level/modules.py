@@ -65,10 +65,9 @@ print(list_of_rgb(3))'''
 
 
 def shuffle_list(list):
-    list = [1,2,3,4,5]
-    list  = random.shuffle
+    random.shuffle(list)
     return list
-print(shuffle_list(list))
+print(shuffle_list(list=[1,2,3,4,5]))
 
 
 
