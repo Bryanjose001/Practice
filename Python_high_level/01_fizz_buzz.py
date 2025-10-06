@@ -11,11 +11,13 @@ my_buzz = 0
 while my_buzz < 101:
     print(my_buzz)
     my_buzz =  my_buzz + 1
-    if my_buzz != 3:
+    if my_buzz % 3 == 0:
         print('fizz')
-    elif my_buzz != 5:
+    elif my_buzz % 5 == 0:
         print('buzz')
-    elif my_buzz 
+    else:
+        my_buzz % 3 and 5 == 0
+        print('fizz buzz')
 
 
 
