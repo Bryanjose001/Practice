@@ -66,6 +66,7 @@ print(list_of_rgb(3))'''
 
 def shuffle_list(list):
     list = [1,2,24,4,5]
+    list  = random.randint(0,255)
     return list
 print(shuffle_list(list))
 
