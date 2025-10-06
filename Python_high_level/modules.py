@@ -74,9 +74,9 @@ def arr_of_seven():
     numeros = []
     for b in range(7):
         num1 = random.randint(0,9)
-        while b in numeros:
-            b = random.randint(0,9)
-            numeros.append(b)
+        while num1 in numeros:
+            num1 = random.randint(0,9)
+            numeros.append(num1)
     return numeros
 print(arr_of_seven())
 
