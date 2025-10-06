@@ -73,6 +73,7 @@ print(shuffle_list(list=[1,2,3,4,5]))
 def arr_of_seven():
     for b in range(7):
         num1 = random.randint(0,9)
+    while 
     return num1
 print(arr_of_seven())
 
