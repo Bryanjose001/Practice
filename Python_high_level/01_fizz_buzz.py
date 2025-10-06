@@ -13,3 +13,5 @@ Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 
 
 def fizz_buzz():
+    for b in range(101):
+        
