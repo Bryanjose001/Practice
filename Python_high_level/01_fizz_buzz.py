@@ -8,8 +8,15 @@ Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  '''
 
 my_buzz = 0
-while my_buzz > 101:
+while my_buzz < 101:
     print(my_buzz)
+    my_buzz =  my_buzz + 1
+    if my_buzz != 3:
+        print('fizz')
+    elif my_buzz != 5:
+        print('buzz')
+    elif my_buzz 
+
 
 
 
