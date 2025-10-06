@@ -70,11 +70,11 @@ def shuffle_list(list):
 print(shuffle_list(list=[1,2,3,4,5]))
 '''
 
-def arr_of_seven(num1):
-    for b in range(num1):
-        num1 = random.randrange(0,7)
+def arr_of_seven():
+    for b in range(7):
+        num1 = random.randint(0,9)
     return num1
-print(arr_of_seven(9))
+print(arr_of_seven())
 
 
 
