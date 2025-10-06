@@ -49,7 +49,7 @@ def list_of_hexa_colors():
     my_second_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
     my_third_hexa = ''.join(random.choice(my_hexa_list)for b in range(6))
     return f'hexa = [#{my_hexa},#{my_second_hexa},#{my_third_hexa}]'
-print(list_of_hexa_colors())'''
+print(list_of_hexa_colors())
 
 
 def list_of_rgb(num):
@@ -61,7 +61,7 @@ def list_of_rgb(num):
         color = f'rgb({my_rgb},{my_second_rgb},{my_third_rgb})'
         colors.append(color)
     return colors
-print(list_of_rgb(3))
+print(list_of_rgb(3))'''
 
 
 def generate_colors():
