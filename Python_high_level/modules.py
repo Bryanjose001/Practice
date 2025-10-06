@@ -52,11 +52,14 @@ def list_of_hexa_colors():
 print(list_of_hexa_colors())'''
 
 
-def list_of_rgb():
-    my_rgb = random.randint(0,255)
-    my_second_rgb = random.randint(0,255)
-    my_third_rgb = random.randint(0,255)
-    return f'rgb = ({my_rgb},{my_second_rgb},{my_third_rgb})'
+def list_of_rgb(num):
+    colors = []
+    for b in range(num):    
+        my_rgb = random.randint(0,255)
+        my_second_rgb = random.randint(0,255)
+        my_third_rgb = random.randint(0,255)
+    color = f'rgb{my_rgb},{my_second_rgb},{my_third_rgb}'
+    colors.append(color)
 print(list_of_rgb())
 
 
