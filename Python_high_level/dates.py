@@ -30,3 +30,4 @@ from datetime import time
 
 current_time = time()
 
+print(timestamp)
