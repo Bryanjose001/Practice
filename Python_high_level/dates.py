@@ -31,4 +31,4 @@ from datetime import time
 current_time = time()
 
 print_date()
-print()
+print_date()
