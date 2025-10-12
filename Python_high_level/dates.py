@@ -30,4 +30,6 @@ from datetime import time
 
 current_time = time()
 
-print_date(current_time)
+print(current_time.hour)
+print(current_time.min)
+print(current_time.second)
