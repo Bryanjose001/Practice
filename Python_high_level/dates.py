@@ -32,5 +32,11 @@ from datetime import time
 current_date = date.today()
 
 print(current_date.year)
-print(current_date.min)
+print(current_date.month)
+print(current_date.day)
+
+current_date = date(2027,10,31)
+
+print(current_date.year)
+print(current_date.month)
 print(current_date.day)
