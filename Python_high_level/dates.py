@@ -30,4 +30,4 @@ from datetime import time
 
 current_time = time()
 
-
+print_date(current_time)
