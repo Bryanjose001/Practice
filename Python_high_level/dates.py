@@ -28,7 +28,7 @@ print(year_2026)
 from datetime import time 
 
 
-current_time = time()
+current_time = time( )
 
 print(current_time.hour)
 print(current_time.min)
