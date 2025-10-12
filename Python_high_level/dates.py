@@ -1,5 +1,5 @@
 #dates
-from datetime import datetime
+from datetime import date, datetime
 now =  datetime.now()
 def print_date(date):
     print(now.year)
@@ -29,8 +29,8 @@ print(year_2026)
 from datetime import time 
 
 
-current_time = time(21,6,3)
+current_date = date.today()
 
-print(current_time.hour)
-print(current_time.min)
-print(current_time.second)
+print(current_date.year)
+print(current_date.min)
+print(current_date.day)
