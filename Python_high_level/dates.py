@@ -9,6 +9,7 @@ def print_date(date):
     print(now.minute)
     print(now.second)
     print(now.microsecond)
+    print(timestamp)
 
 
 timestamp = now.timestamp()
