@@ -45,7 +45,8 @@ current_date.year = date(current_date.year , current_date.month + 1, current_dat
 print(current_date.month)
 
 
-
+diff =  year_2026 - now
+print(diff)
 
 
 from datetime import timedelta
