@@ -35,13 +35,14 @@ print(current_date.year)
 print(current_date.month)
 print(current_date.day)
 
-current_date = date(2027,10,31)
+current_date = date(2021, 10, 6 )
 
 print(current_date.year)
 print(current_date.month)
 print(current_date.day)
 
-current_date.year = date(current_date.year , current_date.month + 1, current_date.day)
+current_date = date(current_date.year , current_date.month + 1, current_date.day)
+
 print(current_date.month)
 
 
