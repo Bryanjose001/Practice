@@ -49,7 +49,7 @@ print(current_date.month)
 diff =  year_2026 - now
 print(diff)
 print
-
+print
 
 from datetime import timedelta
 
