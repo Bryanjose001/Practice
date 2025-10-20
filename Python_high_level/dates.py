@@ -54,4 +54,5 @@ print(diff)
 from datetime import timedelta
 
 
-init_timedelta = timedelta(150, 100 , 100 , weeks =  10)
+start_timedelta = timedelta(150, 100 , 100 , weeks =  10)
+end_timedelta = timedelta(150, 100 , 100 , weeks =  10)
