@@ -54,4 +54,4 @@ print(diff)
 from datetime import timedelta
 
 
-
+init_timedelta = timedelta(150, 100 , 100 , weeks =  10)
