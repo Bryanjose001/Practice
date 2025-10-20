@@ -56,3 +56,5 @@ from datetime import timedelta
 
 start_timedelta = timedelta(150, 100 , 100 , weeks =  10)
 end_timedelta = timedelta(150, 100 , 100 , weeks =  10)
+print(end_timedelta - start_timedelta)
+print(end_timedelta + start_timedelta)
