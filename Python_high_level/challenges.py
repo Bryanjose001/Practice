@@ -21,3 +21,6 @@ while my_buzz < 100:
     else:
         print(my_buzz)
 
+
+def fizzbuzz():
+    
