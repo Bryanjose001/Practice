@@ -9,4 +9,15 @@ Múltiplos de 5 por la palabra "buzz".
 Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  '''
 
+my_buzz = 0
+while my_buzz < 100:
+    my_buzz = my_buzz + 1
+    if my_buzz % 3 == 0 and my_buzz % 5 == 0:
+        print('fizz buzz')
+    elif my_buzz % 3 == 0:
+        print('fizz')
+    elif my_buzz % 5 == 0:
+        print('buzz')
+    else:
+        print(my_buzz)
 
