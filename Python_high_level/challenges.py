@@ -20,9 +20,16 @@ while my_buzz < 100:
         print('buzz')
     else:
         print(my_buzz)
-'''
+    '''
 
 def fizzbuzz():
-    for index in range(1,100):
-        print(index)
+    for index in range(1,101):
+        if index % 3 == 0 and index % 5 == 0:
+            print('fizzbuzz')
+        elif index % 3 == 0:
+            print('fizz')
+        elif index % 5 == 0:
+            print('buzz')
+        else:
+            print(index)
 fizzbuzz()
