@@ -7,5 +7,5 @@ print(my_original_list)
 my_range = range(8)
 print(list(my_range))
 
-my_list =[]
-print()
+my_list =[i + 1 for i in range (8)]
+print(my_list)
