@@ -34,3 +34,9 @@ def fizzbuzz():
 fizzbuzz()
 
 
+def anagrama(string1 , string2):
+    string1 = str
+    string2 = str
+    string1.lower
+    string2.lower
+    if 
