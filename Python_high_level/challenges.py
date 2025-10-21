@@ -23,6 +23,6 @@ while my_buzz < 100:
 '''
 
 def fizzbuzz():
-    for index in range(100):
+    for index in range(1,100):
         print(index)
 fizzbuzz()
