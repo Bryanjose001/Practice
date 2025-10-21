@@ -18,3 +18,10 @@ print(my_list)
 
 my_list =[i * 2 for i in range (8)]
 print(my_list)
+
+
+
+def sum_three(number):
+    return number +  3
+
+
