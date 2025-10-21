@@ -8,4 +8,4 @@ my_range = range(8)
 print(list(my_range))
 
 my_list =[]
-print
+print()
