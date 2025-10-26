@@ -34,9 +34,8 @@ def fizzbuzz():
 fizzbuzz()
 
 
-def anagrama(string1 , string2):
-    string1 = str
-    string2 = str
-    string1.lower
-    string2.lower
-    if 
+def anagrama(word1, word2):
+    if word1.lower() == word2.lower():
+        return False
+    return sorted(word1.lower()) == sorted(word2.lower())
+print(anagrama('amor','roma'))
