@@ -48,3 +48,8 @@ def fibonacci():
 
     for index in range(0,50):
         print(prev)
+        fib = prev + next
+        prev = next
+        next = fib
+
+fibonacci()
