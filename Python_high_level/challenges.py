@@ -39,3 +39,12 @@ def anagrama(word1, word2):
         return False
     return sorted(word1.lower()) == sorted(word2.lower())
 print(anagrama('amor','roma'))
+
+
+
+def fibonacci():
+    prev = 0
+    next = 1
+
+    for index in range(0,50):
+        print(prev)
