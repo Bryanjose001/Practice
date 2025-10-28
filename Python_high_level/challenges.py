@@ -58,7 +58,7 @@ fibonacci()
 def numeroprimo():
     for numero in range(1,101):
         if numero >+ 2:
-
+            is_divisible = False
             for index in range(2,numero):
                 if numero %  index == 0:
                     return False
