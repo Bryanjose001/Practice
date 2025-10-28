@@ -60,6 +60,6 @@ def numeroprimo(numero):
         return False
     if numero % == 0:
         return False
-    if numero
+    
 
     return True
