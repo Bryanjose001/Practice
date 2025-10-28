@@ -62,6 +62,6 @@ def numeroprimo():
             for index in range(2,numero):
                 if numero %  index == 0:
                     return False
-
-    print(numero)
+            if not is_divisible:
+                print(numero)
 numeroprimo()
