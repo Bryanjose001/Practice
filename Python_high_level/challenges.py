@@ -61,7 +61,8 @@ def numeroprimo():
             is_divisible = False
             for index in range(2,numero):
                 if numero %  index == 0:
-                    return False
+                    is_divisible = True
+                    break
             if not is_divisible:
                 print(numero)
 numeroprimo()
