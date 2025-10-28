@@ -66,3 +66,4 @@ def numeroprimo():
             if not is_divisible:
                 print(numero)
 numeroprimo()
+
