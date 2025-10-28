@@ -53,3 +53,12 @@ def fibonacci():
         next = fib
 
 fibonacci()
+
+
+def numeroprimo(numero):
+    if numero < 2:
+        return False
+    if number % == 0:
+
+
+    return True
