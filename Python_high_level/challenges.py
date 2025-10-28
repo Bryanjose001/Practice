@@ -73,3 +73,10 @@ def cadena_reversa():
     my_revese_list = my_list[::-1]
     print(my_revese_list)
 cadena_reversa()
+
+def cadena_reversa():
+    my_list = list("Hola Mundo")
+    my_list.reverse()
+    print("".join(my_list))
+
+cadena_reversa()
