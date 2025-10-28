@@ -58,8 +58,8 @@ fibonacci()
 def numeroprimo(numero):
     if numero < 2:
         return False
-    for index in range(2,numero)
-    if numero %  index == 0:
-        return False
+    for index in range(2,numero):
+        if numero %  index == 0:
+            return False
 
     return True
