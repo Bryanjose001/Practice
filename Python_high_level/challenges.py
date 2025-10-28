@@ -55,11 +55,13 @@ def fibonacci():
 fibonacci()
 
 
-def numeroprimo(numero):
-    if numero < 2:
-        return False
-    for index in range(2,numero):
-        if numero %  index == 0:
+def numeroprimo():
+    for numero in range(1,101):
+        if numero < 2:
             return False
+        for index in range(2,numero):
+            if numero %  index == 0:
+                return False
 
     return True
+numeroprimo()
