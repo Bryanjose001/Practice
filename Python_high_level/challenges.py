@@ -67,3 +67,9 @@ def numeroprimo():
                 print(numero)
 numeroprimo()
 
+
+def cadena_reversa():
+    my_list = 'Hola Mundo'
+    my_revese_list = my_list[::-1]
+    print(my_revese_list)
+cadena_reversa()
