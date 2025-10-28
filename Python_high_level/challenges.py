@@ -63,5 +63,5 @@ def numeroprimo():
                 if numero %  index == 0:
                     return False
 
-    print()
+    print(numero)
 numeroprimo()
