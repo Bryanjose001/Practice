@@ -3,6 +3,6 @@ def sum_one(value):
     return value + 1
 
 
-def sumtwovalues(values1,values2):
-    return values1 + values2 + 1
-sumtwovalues()
+def sum_two_values_plus_one(values1,values2):
+    return sum_one(values1 + values2)
+print(sum_two_values_plus_one(5,2))
