@@ -27,3 +27,6 @@ def sum_three(number):
 
 my_list = [sum_three(i) for i in range(8)]
 print(my_list)
+
+
+
