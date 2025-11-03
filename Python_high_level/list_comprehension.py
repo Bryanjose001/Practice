@@ -31,4 +31,5 @@ print(my_list)
 
 
 numbers  = [-4,-3,-2,-1,0,2,4,6]
-
+positive_numbers = [i for i in numbers if i % 1 == 0 and i > 0]
+print(positive_numbers)
