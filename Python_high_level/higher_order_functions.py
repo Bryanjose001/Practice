@@ -5,5 +5,4 @@ def sum_one(value):
 
 def sumtwovalues(values1,values2):
     return values1 + values2 + 1
-print
 sumtwovalues()
