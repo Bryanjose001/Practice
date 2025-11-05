@@ -5,3 +5,7 @@ console.log(helloworld)
 
 helloworld = 'hola de nuevo'
 console.log(helloworld)
+
+let 
+
+const
