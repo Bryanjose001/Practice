@@ -1,5 +1,4 @@
-var1 = 23
-var2 = 'Bryan'
+
 var helloworld = 'Hello World'
 console.log(helloworld)
 
@@ -14,4 +13,9 @@ console.log(helloworld2)
 
 
 
-const
+const helloworld3 = 'Hello World'
+console.log(helloworld3)
+
+//Error
+//helloworld3 = 'Hello again'
+//console.log(helloworld3)
