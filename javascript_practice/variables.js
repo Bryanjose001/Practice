@@ -6,6 +6,12 @@ console.log(helloworld)
 helloworld = 'hola de nuevo'
 console.log(helloworld)
 
-let 
+let helloworld2 = 'Hello World'
+console.log(helloworld2)
+
+helloworld2 = 'Hello World'
+console.log(helloworld2)
+
+
 
 const
