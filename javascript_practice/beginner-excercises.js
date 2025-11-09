@@ -42,7 +42,8 @@ console.log(age)
 console.log(isTeacher)
 console.log(isStudent)
 
-console.log(undefinedValue)
+
+console.log(undefinedvalue)
 
 console.log(nullvalue)
 
@@ -70,11 +71,41 @@ console.log(typeof mySymbol)
 console.log(typeof myBigint)
 console.log(typeof myBigint2)
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
+name = 'jose'
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
+name =  null
+console.log(typeof name)
+
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
+const name1 = 'Bryan Jose'
+
+//numeros (numbers)
+const age1 = 23
+
+//booleans
+const isStudent11= true
+const isTeache1r= false
+
+//undefined
+/*const undefinedvalue
+console.log(undefinedvalue)*/
+
+//Null
+const nullvalue1 = null
+
+//symbols
+const mySymbol1 = Symbol('my symbol')
+
+//Big int
+const myBigint1 = 953753678282265247926642n
+const myBigint22 = BigInt(25262654626561251651951055151737531)
+
 // 9. A continuación, modifica los valores de las constantes
+
+
+
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
