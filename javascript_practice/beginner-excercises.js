@@ -9,11 +9,11 @@ bryan is learning javascrpit
 let name = 'Bryan Jose'
 
 //numeros (numbers)
-let age =23
+let age = 23
 
 //booleans
-let isStudent=true
-let isTeacher=false
+let isStudent= true
+let isTeacher= false
 
 //undefined
 let undefinedvalue
@@ -33,44 +33,42 @@ let myBigint2 = BigInt(25262654626561251651951055151737531)
 
 // 4. Imprime por consola el valor de todas las variables
 
-console.log(typeof myName)
-console.log(typeof alias)
-console.log(typeof email)
+console.log(name)
 
-console.log(typeof age)
-console.log(typeof height)
 
-console.log(typeof isTeacher)
-console.log(typeof isStudent)
+console.log(age)
 
-console.log(typeof undefinedValue)
 
-console.log(typeof nullValue)
+console.log(isTeacher)
+console.log(isStudent)
 
-console.log(typeof mySymbol)
+console.log(undefinedValue)
 
-console.log(typeof myBigInt)
-console.log(typeof myBigInt2)
+console.log(nullvalue)
+
+console.log(mySymbol)
+
+console.log(myBigint)
+console.log(myBigint2)
 
 // 5. Imprime por consola el tipo de todas las variables
-console.log(typeof myName)
-console.log(typeof alias)
-console.log(typeof email)
+console.log(typeof name)
+
 
 console.log(typeof age)
-console.log(typeof height)
+
 
 console.log(typeof isTeacher)
 console.log(typeof isStudent)
 
 console.log(typeof undefinedValue)
 
-console.log(typeof nullValue)
+console.log(typeof nullvalue)
 
 console.log(typeof mySymbol)
 
-console.log(typeof myBigInt)
-console.log(typeof myBigInt2)
+console.log(typeof myBigint)
+console.log(typeof myBigint2)
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
