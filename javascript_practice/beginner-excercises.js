@@ -110,3 +110,7 @@ console.log(typeof name1)
 //false no se puede modificar las valores de las constantes 
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+
+/*
+name1 = null
+console.log(typeof name1)*/
