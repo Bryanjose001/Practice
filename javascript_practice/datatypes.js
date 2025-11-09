@@ -14,3 +14,10 @@ console.log(undefinedvalue)
 
 //Null
 let nullvalue = null
+
+//symbols
+let mySymbol = Symbol('my symbol')
+
+//Big int
+let myBigint = 953753678282265247926642n
+let myBigint2 = BigInt(25262654626561251651951055151737531)

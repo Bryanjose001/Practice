@@ -1,13 +1,76 @@
 // 1. Escribe un comentario en una línea
-
+//Hola mundo
 // 2. Escribe un comentario en varias líneas
-
+/*
+bryan is learning javascrpit
+*/
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
+// tipos de datos primitivos
+let name = 'Bryan Jose'
+
+//numeros (numbers)
+let age =23
+
+//booleans
+let isStudent=true
+let isTeacher=false
+
+//undefined
+let undefinedvalue
+console.log(undefinedvalue)
+
+//Null
+let nullvalue = null
+
+//symbols
+let mySymbol = Symbol('my symbol')
+
+//Big int
+let myBigint = 953753678282265247926642n
+let myBigint2 = BigInt(25262654626561251651951055151737531)
+
+
 
 // 4. Imprime por consola el valor de todas las variables
 
-// 5. Imprime por consola el tipo de todas las variables
+console.log(typeof myName)
+console.log(typeof alias)
+console.log(typeof email)
 
+console.log(typeof age)
+console.log(typeof height)
+
+console.log(typeof isTeacher)
+console.log(typeof isStudent)
+
+console.log(typeof undefinedValue)
+
+console.log(typeof nullValue)
+
+console.log(typeof mySymbol)
+
+console.log(typeof myBigInt)
+console.log(typeof myBigInt2)
+
+// 5. Imprime por consola el tipo de todas las variables
+console.log(typeof myName)
+console.log(typeof alias)
+console.log(typeof email)
+
+console.log(typeof age)
+console.log(typeof height)
+
+console.log(typeof isTeacher)
+console.log(typeof isStudent)
+
+console.log(typeof undefinedValue)
+
+console.log(typeof nullValue)
+
+console.log(typeof mySymbol)
+
+console.log(typeof myBigInt)
+console.log(typeof myBigInt2)
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
