@@ -105,7 +105,8 @@ const myBigint22 = BigInt(25262654626561251651951055151737531)
 
 // 9. A continuación, modifica los valores de las constantes
 
-
-
+name1 = null
+console.log(typeof name1)
+//false no se puede modificar las valores de las constantes 
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
