@@ -1,10 +1,15 @@
 // 1. Crea una variable para cada operación aritmética
 let a = 5
 let b = 10
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
+let suma = a + b 
+let Resta = a - b
+let Multiplicación = a * b
+let División = a / b
+
+console.log(suma)
+console.log(Resta)
+console.log(Multiplicación)
+console.log(División)
 a++
 console.log(a)
 
