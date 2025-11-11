@@ -2,20 +2,23 @@
 let a = 5
 let b = 10
 let suma = a + b 
-let Resta = a - b
-let Multiplicación = a * b
-let División = a / b
+let resta = a - b
+let multiplicación = a * b
+let división = a / b
 
 console.log(suma)
-console.log(Resta)
-console.log(Multiplicación)
-console.log(División)
+console.log(resta)
+console.log(multiplicación)
+console.log(división)
 a++
 console.log(a)
 
 
 // 2. Crea una variable para cada tipo de operación de asignación,
 //    que haga uso de las variables utilizadas para las operaciones aritméticas
+let c = 
+
+
 
 // 3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
 
