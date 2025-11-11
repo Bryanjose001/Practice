@@ -74,3 +74,7 @@ isWalking ? console.log('esta caminado!') : console.log('no esta caminando!')
 
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+
+console.log(a - b)
+console.log(a < b)
+console.log(a < b && number == b)
