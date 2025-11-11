@@ -1,4 +1,13 @@
 // 1. Crea una variable para cada operación aritmética
+let a = 5
+let b = 10
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+a++
+console.log(a)
+
 
 // 2. Crea una variable para cada tipo de operación de asignación,
 //    que haga uso de las variables utilizadas para las operaciones aritméticas
