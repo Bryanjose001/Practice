@@ -61,12 +61,14 @@ console.log(5 > 10 && 15 > 20 || 30 < 40)
 
 
 // 8. Añade alguna negación
+console.log(!(7 > 11))
 
 
 
 
 // 9. Utiliza el operador ternario
-
+const isWalking = false
+isWalking ? console.log('esta caminado!') : console.log('no esta caminando!')
 
 
 
