@@ -54,3 +54,30 @@ console.log(0 == "Hola")
 console.log(0 === "")
 console.log(undefined == null)
 console.log(undefined === null)
+
+// Operadores lógicos
+
+// and (&&)
+console.log(5 > 10 && 15 > 20)
+console.log(5 < 10 && 15 < 20)
+console.log(5 < 10 && 15 > 20)
+console.log(5 > 10 && 15 > 20 && 30 > 40)
+
+// or (||)
+console.log(5 > 10 || 15 > 20)
+console.log(5 < 10 || 15 < 20)
+console.log(5 < 10 || 15 > 20)
+console.log(5 > 10 || 15 > 20 || 30 > 40)
+
+console.log(5 > 10 && 15 > 20 || 30 < 40)
+
+// not (!)
+console.log(!true)
+console.log(!false)
+console.log(!(5 > 10 && 15 > 20))
+console.log(!(5 > 10 || 15 > 20))
+
+// Operadores ternarios
+
+const isRaining = false
+isRaining ? console.log("Está lloviendo") : console.log("No está lloviendo")
