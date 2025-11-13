@@ -32,27 +32,28 @@ ujbbedvbwqo`
 
 // 6. Interpola el valor de una variable en un string
 let email = "bryanjose@gmail.com"
-console.log(`Hola, ${myName}! Tu email es ${email}.`)
+console.log(`Hola, ${name}! Tu email es ${email}.`)
 
 
 
 // 7. Reemplaza todos los espacios en blanco de un string por guiones
 
-
+console.log(greeting.replace(/ /g,"-"))
 
 
 
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
-
+console.log(greeting.includes('Hey'))
 
 
 
 
 // 9. Comprueba si dos strings son iguales
-
+console.log(greeting == varias_lineas)
 
 
 
 
 // 10. Comprueba si dos strings tienen la misma longitud
+console.log(varias_lineas.length == greeting.length)
