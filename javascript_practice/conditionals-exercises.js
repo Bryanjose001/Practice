@@ -1,14 +1,30 @@
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
-
+let name = 'Bryan'
+if (name == 'Bryan'){
+    console.log('Este es mi nombre:Bryan')
+}
 
 
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
+let usuario = 'Bryan12'
+let contraseña = 'Bryan1234'
 
+if (usuario == usuario){
+    console.log('Tu usuario es corecta!')
+}
+    else if(contraseña == contraseña){
+        console.log('Tu contrasena es correcta!')
+    }
 
-
+if (usuario != usuario){
+    console.log('Tu usuario es incorecta')
+}
+    else if (contraseña != contraseña){
+    }
+    console.log('Tu contraseña es incorecta')
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
