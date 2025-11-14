@@ -4,7 +4,7 @@ console.log(mySet)
 
 
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["Bryan", "Jose",  23, true, "bryanjose@gmail.com"])
 
 console.log(mySet)
 
@@ -12,23 +12,23 @@ console.log(mySet)
 
 
 
-mySet.add("https://moure.dev")
+mySet.add("https://bryanjose.com")
 
 console.log(mySet)
 
-mySet.delete("https://moure.dev")
+mySet.delete("https://novufoods.com")
 
 console.log(mySet)
 
-console.log(mySet.delete("Brais"))
+console.log(mySet.delete("Bryan"))
 console.log(mySet.delete(4))
 
 console.log(mySet)
 
 
 
-console.log(mySet.has("Moure"))
-console.log(mySet.has("Brais"))
+console.log(mySet.has("Jose"))
+console.log(mySet.has("Bryan"))
 
 
 
@@ -45,8 +45,8 @@ console.log(mySet)
 
 
 
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("BraisMoure@mouredev.com")
+mySet.add("bryanjose@gmail.com")
+mySet.add("bryanjose@gmail.com")
+mySet.add("bryanjose@gmail.com")
+mySet.add("bryanjose@gmail.com")
 console.log(mySet)
