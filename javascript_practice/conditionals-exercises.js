@@ -12,21 +12,26 @@ if (name == 'Bryan'){
 let usuario = 'Bryan12'
 let contraseña = 'Bryan1234'
 
-if (usuario == usuario){
-    console.log('Tu usuario es corecta!')
+let usuarioCorrecto = 'Bryan12';
+let contraseñaCorrecta = 'Bryan1234';
+
+if (usuarioCorrecto == usuario){
+    console.log('Tu usuario es corecta!');
 }
-    else if(contraseña == contraseña){
-        console.log('Tu contrasena es correcta!')
+if(contraseñaCorrecta == contraseña){
+    console.log('Tu contrasena es correcta!');
+}
+
+if(usuarioCorrecto !== usuario){
+    console.log('Tu usuario es incorecta');
+}
+if(contraseñaCorrecta !== contraseña){
+    console.log('Tu contraseña es incorecta!');
     }
 
-if (usuario != usuario){
-    console.log('Tu usuario es incorecta')
-}
-    else if (contraseña != contraseña){
-    }
-    console.log('Tu contraseña es incorecta')
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
+
 
 
 
