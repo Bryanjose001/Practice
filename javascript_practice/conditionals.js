@@ -18,3 +18,5 @@ if (age == 23) {
     console.log("La edad no es 23 ni es menor de edad")
 }
 
+const message = age == 23 ? "La edad es 23" : "La edad no es 23"
+console.log(message)
