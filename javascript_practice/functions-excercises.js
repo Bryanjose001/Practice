@@ -34,8 +34,16 @@ vocales()
 
 
 // 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas
-function 
-
+function  stringArray(){
+    let texto = ""
+    let newArray = []
+    for (let i = 0; i < texto.length; i++){
+        let letra = texto[i].toUpperCase();
+        newArray.push(letra)
+    }
+    console.log(newArray)
+}
+stringArray()
 
 
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
