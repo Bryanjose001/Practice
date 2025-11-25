@@ -47,7 +47,18 @@ stringArray()
 
 
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
-
+function numeroPrimo(numero){
+    if (numero <= 1){
+        return false
+    }
+for (let i = 2; i < numero;i++){
+    if (numero % i ===0){
+        return false
+    }
+}
+return true
+}
+console.log(numeroPrimo(17))
 
 
 
