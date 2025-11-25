@@ -63,12 +63,20 @@ console.log(numeroPrimo(17))
 
 
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
-
-
+function twoArrays(arr1,arr2){
+    let newArray = []
+    for(let elemento of arr1){
+        if(arr2.includes(elemento)){
+            newArray.push(elemento);
+        }
+    }
+    return newArray
+}
+console.log(twoArrays([1,2,3,4,],[2,4,3,5]))
 
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
-
+  
 
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
