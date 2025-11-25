@@ -76,16 +76,48 @@ console.log(twoArrays([1,2,3,4,],[2,4,3,5]))
 
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
-  
+function arrays(newArray){
+    sumNewArray = 0
+    for (let i of newArray){
+    if (i % 2 === 0){
+        sumNewArray += i
+        }
+    }
+    return sumNewArray
+}
+arrays([1,2,3,4])
+
 
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
+function squareArray(numbers) {
+    return numbers.map(num => num ** 2);
+}
 
+const originalArray = [1, 2, 3, 4];
+const squaredArray = squareArray(originalArray);
+console.log(squaredArray); 
 
 
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
+function reverseWords(sentence) {
+    return sentence.split(' ').reverse().join(' ')
+}
+
+const original = "Hola mundo desde JavaScript"
+const reversed = reverseWords(original)
+console.log(reversed) 
+
+
 
 
 
 
 // 10. Crea una función que calcule el factorial de un número dado
+function factorial(n) {
+    if (n < 0) throw new Error("Factorial no definido para negativos")
+    if (n === 0 || n === 1) return 1
+    return n * factorial(n - 1)
+}
+
+console.log(factorial(5))
