@@ -56,6 +56,12 @@ Expected Output:
 67
 Passed students: 5
 */
+const grades = [90, 45, 76, 88, 59, 100, 67]
+for (let grade of grades){
+    if(grade >= 60){
+        console.log(grade)
+    }
+}
 
 
 
@@ -76,3 +82,14 @@ Expected Output:
 Found matching review: Nice cafe
 Found matching review: Amazing service
 */
+const reviews = [
+{ placeId: 10, text: "Nice cafe" },
+{ placeId: 25, text: "Great food!" },
+{ placeId: 10, text: "Amazing service" }
+]
+let targetid = 10
+for (let review of reviews){
+    if(review.placeId === targetid){
+        console.log(review.text)
+    }
+}
