@@ -32,7 +32,13 @@ Expected Output:
 50
 12
 */
+const numbers = [3, 10, 7, 24, 50, 5, 12]
+for (let num of numbers){
+    if(num % 2 == 0){
+        console.log(num)
 
+    }
+}
 
 
 
@@ -50,6 +56,9 @@ Expected Output:
 67
 Passed students: 5
 */
+
+
+
 
 
 
