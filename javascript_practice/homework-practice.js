@@ -11,7 +11,7 @@ Expected Output:
 */
 const ages = [12, 18, 25, 9, 40, 15, 30]
 
-for (let age in ages){
+for (let age of ages){
     if (age >= 18){
         console.log(age)
     }
